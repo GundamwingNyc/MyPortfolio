@@ -4,19 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        .myDiv {
-          border: 7px outset blue;
-          background-color: greenyellow;
-          text-align: center;
+        div {
+        background: rgb(76, 175, 80);
+        padding: 10px;
+        }
+        .flex-container {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: ;
+          background-color: DodgerBlue;
+        }
+        .flex-container > div {
+          background-color: #f1f1f1;
+          margin: 10px;
+          padding: 10px;
+          font-size: 30px;
+        }
+        div.transbox {
+        margin: 30px;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.6;
+        }
+        div.transbox p {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
         }
         </style>
-    <title>Ramsey</title>
+    <title>Document</title>
 </head>
 <body>
-    <img src="work.png" alt="Italian Trulli">
-    <div class="myDiv">
-        <h2>Websyte</h2>
-        <p>not another websyte</p>
-      </div>
+    <div style="opacity:0.1;"><p>RAMSEY</p></div>
+    <div class="flex-container">
+        <div>header</div>
+        <div>image page links</div>
+        <div>something else thats cool</div>
+    </div>
+    <p>space for more content</p>
+    <p>even more content</p>
+
+<div class="background">
+    <div class="transbox">
+      <p>the top is the bottom</p>
+    </div>
 </body>
 </html>
