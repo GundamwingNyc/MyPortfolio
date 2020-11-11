@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <div id="fixed-header">
+
+        HEADER AND / OR MENU CODE HERE
+        
+        </div>
+        <div id="header-fix-space"></div>
+        
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>#grad1 {
+        height: 700px;
+        background-image: linear-gradient(to right, rgba(255,400,9,1), rgb( 255, 0, 91,1));
+      }</style>
+    
     <style>
-        div {
-        background: rgb(76, 175, 80);
-        padding: 10px;
-        }
+        
         .flex-container {
           display: flex;
           flex-direction: column;
           flex-wrap:wrap; 
           background-color: DodgerBlue;
+          justify-content: center;
         }
         .flex-container > div {
           background-color: #f1f1f1;
@@ -32,12 +42,13 @@
         color: #000000;
         }
     </style>
-    <title>Document</title>
+    <title>RAMSEY</title>
 </head>
 <body>
-    <div style="opacity:0.1;"><p>RAMSEY</p></div>
+    <div id="grad1"></div>
+    
     <div class="flex-container">
-        <div>header</div>
+        <div>header</div><div>header2</div>
         <div>image page links</div>
         <div>something else thats cool</div>
     </div>
