@@ -1,3 +1,44 @@
 body {
-    background-color: lightblue;
-  }
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+#grad1 {
+  height: 700px;
+  background-image: linear-gradient(to top, rgba(255,400,9,1), rgb( 255, 0, 91,1));
+}
+        .flex-container {
+          display: flex;
+          flex-direction: column;
+          flex-wrap:wrap; 
+          background-color: rgba(100, 102, 104, 0.014);
+          justify-content: center;
+          color: navy;
+        }
+        .flex-container > div {
+          background-color: #f1f1f1;
+          margin: 10px;
+          padding: 10px;
+          font-size: 30px;
+          navy: orange;
+          
+        }
+        div.transbox {
+        margin: 30px;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.6;
+        }
+        div.transbox p {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+        }
