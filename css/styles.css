@@ -29,7 +29,7 @@ p {
           padding: 10px;
           font-size: 30px;
           navy: orange;
-          
+
         }
         div.transbox {
         margin: 30px;
@@ -41,4 +41,18 @@ p {
         margin: 5%;
         font-weight: bold;
         color: #000000;
+        }
+        body {
+          font-size: 48px;
+        }
+        div:nth-child(1) {
+          font-family: 'Comic Neue', cursive;
+        }
+        div:nth-child(2) {
+          font-family: 'Bebas Neue, cursive;
+        }
+        function myFunction() {
+          var btn = document.createElement("BUTTON");
+          btn.innerHTML = "CLICK ME";
+          document.body.appendChild(btn);
         }
